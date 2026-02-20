@@ -25,6 +25,10 @@ source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/adc.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_adc.h
 source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
 source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_dma.h
+source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_dma.h
+source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_vim.h
+source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_vim.h
 
 ../source/sys_main.c:
 
@@ -75,4 +79,12 @@ C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_adc.h:
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
 
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_dma.h:
+
+C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_dma.h:
+
+C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_vim.h:
+
+C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_vim.h:
 

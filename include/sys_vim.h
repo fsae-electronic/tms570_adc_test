@@ -96,6 +96,7 @@ extern void rtiCompare2Interrupt(void);
 extern void rtiCompare3Interrupt(void);
 extern void adc1Group0Interrupt(void);
 extern void adc1Group1Interrupt(void);
+extern void dmaFTCAInterrupt(void);
 extern void sciHighLevelInterrupt(void);
 
 /* USER CODE BEGIN (3) */
@@ -295,7 +296,7 @@ typedef struct vim_config_reg
                                     | (uint32)((uint32)0U << 31U))
 						
 #define VIM_REQMASKSET1_CONFIGVALUE	( (uint32)((uint32)0U << 0U)\
-                                    | (uint32)((uint32)0U << 1U)\
+                                    | (uint32)((uint32)1U << 1U)\
                                     | (uint32)((uint32)0U << 2U)\
                                     | (uint32)((uint32)0U << 3U)\
                                     | (uint32)((uint32)0U << 4U)\
