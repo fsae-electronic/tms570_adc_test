@@ -25,6 +25,7 @@ C_SRCS += \
 ../source/pinmux.c \
 ../source/rti.c \
 ../source/sci.c \
+../source/sensors.c \
 ../source/sys_dma.c \
 ../source/sys_main.c \
 ../source/sys_pcr.c \
@@ -45,6 +46,7 @@ C_DEPS += \
 ./source/pinmux.d \
 ./source/rti.d \
 ./source/sci.d \
+./source/sensors.d \
 ./source/sys_dma.d \
 ./source/sys_main.d \
 ./source/sys_pcr.d \
@@ -66,6 +68,7 @@ OBJS += \
 ./source/pinmux.obj \
 ./source/rti.obj \
 ./source/sci.obj \
+./source/sensors.obj \
 ./source/sys_core.obj \
 ./source/sys_dma.obj \
 ./source/sys_intvecs.obj \
@@ -98,6 +101,7 @@ OBJS__QUOTED += \
 "source\pinmux.obj" \
 "source\rti.obj" \
 "source\sci.obj" \
+"source\sensors.obj" \
 "source\sys_core.obj" \
 "source\sys_dma.obj" \
 "source\sys_intvecs.obj" \
@@ -122,6 +126,7 @@ C_DEPS__QUOTED += \
 "source\pinmux.d" \
 "source\rti.d" \
 "source\sci.d" \
+"source\sensors.d" \
 "source\sys_dma.d" \
 "source\sys_main.d" \
 "source\sys_pcr.d" \
@@ -149,6 +154,7 @@ C_SRCS__QUOTED += \
 "../source/pinmux.c" \
 "../source/rti.c" \
 "../source/sci.c" \
+"../source/sensors.c" \
 "../source/sys_dma.c" \
 "../source/sys_main.c" \
 "../source/sys_pcr.c" \

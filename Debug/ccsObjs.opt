@@ -8,6 +8,7 @@
 "./source/pinmux.obj"
 "./source/rti.obj"
 "./source/sci.obj"
+"./source/sensors.obj"
 "./source/sys_core.obj"
 "./source/sys_dma.obj"
 "./source/sys_intvecs.obj"

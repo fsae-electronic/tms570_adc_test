@@ -20,6 +20,7 @@ ORDERED_OBJS += \
 "./source/pinmux.obj" \
 "./source/rti.obj" \
 "./source/sci.obj" \
+"./source/sensors.obj" \
 "./source/sys_core.obj" \
 "./source/sys_dma.obj" \
 "./source/sys_intvecs.obj" \
@@ -156,15 +157,15 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 tms570_adc_test.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"tms570_adc_test.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="tms570_adc_test_linkInfo.xml" --rom_model --be32 -o "tms570_adc_test.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --c99 --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"tms570_adc_test.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="tms570_adc_test_linkInfo.xml" --rom_model --be32 -o "tms570_adc_test.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "source\adc.obj" "source\dabort.obj" "source\errata_SSWF021_45.obj" "source\esm.obj" "source\gio.obj" "source\io_driver.obj" "source\notification.obj" "source\pinmux.obj" "source\rti.obj" "source\sci.obj" "source\sys_core.obj" "source\sys_dma.obj" "source\sys_intvecs.obj" "source\sys_main.obj" "source\sys_mpu.obj" "source\sys_pcr.obj" "source\sys_phantom.obj" "source\sys_pmm.obj" "source\sys_pmu.obj" "source\sys_selftest.obj" "source\sys_startup.obj" "source\sys_vim.obj" "source\system.obj" 
-	-$(RM) "source\adc.d" "source\errata_SSWF021_45.d" "source\esm.d" "source\gio.d" "source\io_driver.d" "source\notification.d" "source\pinmux.d" "source\rti.d" "source\sci.d" "source\sys_dma.d" "source\sys_main.d" "source\sys_pcr.d" "source\sys_phantom.d" "source\sys_pmm.d" "source\sys_selftest.d" "source\sys_startup.d" "source\sys_vim.d" "source\system.d" 
+	-$(RM) "source\adc.obj" "source\dabort.obj" "source\errata_SSWF021_45.obj" "source\esm.obj" "source\gio.obj" "source\io_driver.obj" "source\notification.obj" "source\pinmux.obj" "source\rti.obj" "source\sci.obj" "source\sensors.obj" "source\sys_core.obj" "source\sys_dma.obj" "source\sys_intvecs.obj" "source\sys_main.obj" "source\sys_mpu.obj" "source\sys_pcr.obj" "source\sys_phantom.obj" "source\sys_pmm.obj" "source\sys_pmu.obj" "source\sys_selftest.obj" "source\sys_startup.obj" "source\sys_vim.obj" "source\system.obj" 
+	-$(RM) "source\adc.d" "source\errata_SSWF021_45.d" "source\esm.d" "source\gio.d" "source\io_driver.d" "source\notification.d" "source\pinmux.d" "source\rti.d" "source\sci.d" "source\sensors.d" "source\sys_dma.d" "source\sys_main.d" "source\sys_pcr.d" "source\sys_phantom.d" "source\sys_pmm.d" "source\sys_selftest.d" "source\sys_startup.d" "source\sys_vim.d" "source\system.d" 
 	-$(RM) "source\dabort.d" "source\sys_core.d" "source\sys_intvecs.d" "source\sys_mpu.d" "source\sys_pmu.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

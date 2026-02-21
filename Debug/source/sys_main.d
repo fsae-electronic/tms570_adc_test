@@ -16,19 +16,14 @@ source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/incl
 source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdbool.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_core.h
 source/sys_main.obj: ../source/io_driver.h
+source/sys_main.obj: ../source/sensors.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sci.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_sci.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_gio.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/rti.h
 source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_rti.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/adc.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_adc.h
 source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
 source/sys_main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_dma.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_dma.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_vim.h
-source/sys_main.obj: C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_vim.h
 
 ../source/sys_main.c:
 
@@ -62,6 +57,8 @@ C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_core.h:
 
 ../source/io_driver.h:
 
+../source/sensors.h:
+
 C:/Users/agust/workspace_v12/tms570_adc_test/include/sci.h:
 
 C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_sci.h:
@@ -72,19 +69,7 @@ C:/Users/agust/workspace_v12/tms570_adc_test/include/rti.h:
 
 C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_rti.h:
 
-C:/Users/agust/workspace_v12/tms570_adc_test/include/adc.h:
-
-C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_adc.h:
-
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
 
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
-
-C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_dma.h:
-
-C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_dma.h:
-
-C:/Users/agust/workspace_v12/tms570_adc_test/include/sys_vim.h:
-
-C:/Users/agust/workspace_v12/tms570_adc_test/include/reg_vim.h:
 
